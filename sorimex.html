@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css sorimex/style.css"> 
+    <title>shopping at home</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">     
+             <img class="image" src="./res/logo.png" alt="image">
+             <h3 class="name">shopping at home</h3>
+          </div>
+          <nav class="navigation">
+                <a href="./index.html">magasins</a> 
+          </nav>
+        </div>
+      </header>
+ <section class="sect">
+     <div class="abc">
+         <img class="photo" src="./res/sorimex.png" alt="photo">
+        
+     </div>
+     <a class="Sorimex" href=""><span>Sorimex</span></a>
+     <div class="style-select">
+        <select id="select">
+            <option><span>Choose city</span> </option>
+                                                <option value="">Tunis</option>
+                                                <option value="">Beja</option>
+                                                <option value="">Bizerte</option>
+                                                <option value="">zaghouane</option>
+                                                <option value="">Nabeul</option>
+                                                <option value="">Sousse</option>
+                                                <option value="">Monastire</option>
+                                                <option value="">Mahdia</option>
+                                                <option value="./sorimexsfax.html" >Sfax</option>
+                                                <option value="">Gabes</option>
+                                                <option value="">Medenine</option>
+                                                <option value="">Tataouine</option>
+                                                <option value="">Tozeur</option>
+                                                <option value="">Gafsa</option>
+                                                <option value="">Kef</option>
+                                                <option value="">Jendouba</option>
+                                                <option value="">Sidi bouzid</option>
+                                                <option value="">Siliana</option>
+                                                <option value="">Kairouan</option>
+                                                <option value="">Kbeli</option>
+                                                <option value="">Kasserine</option>
+                                        </select>
+    </div>
+ </section>
+ <script>
+    const selectElement = document.getElementById('select');
+    console.log(selectElement)
+selectElement.addEventListener('change', (e) => {
+  window.location.replace(e.target.value)
+  
+});
+</script>
+</body>
+</html>

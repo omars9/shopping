@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+	background-color: rgba(224, 162, 162, 0.644);
+    width: 100%;
+	height: 60px;
+	margin-top: -60px;
+	position: fixed;
+	z-index: 999;
+	
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 100px;
+}
+.image{
+	width: 70px;
+	height: 70px;
+}
+.logo{
+	display: flex;
+}
+.name{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+	margin: 10px 7px;
+	color: rgb(32, 52, 90);
+}
+.navigation{
+	padding-top: 11px;
+}
+.navigation a{
+	text-decoration: none;
+	color: rgb(52, 66, 28);
+	font-size: 20px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 20px;
+	
+}
+.navigation a:hover{
+	color: rgb(148, 158, 130);
+}
+.sect{
+	background-color: rgb(219, 118, 118);
+	width: 100%;
+	height: 19.4cm;
+	margin-top: 60px; 
+	padding: 50px 80px;
+}
+.photo{
+    height: 200px;
+    width: 700px;
+	margin-left: 40px;
+	margin-top: 60px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: .5s;
+}
+.photo:hover{
+	box-shadow: 25px 13px 24px -2px rgba(0, 0, 0, 0.59);
+-webkit-box-shadow: 25px 13px 24px -2px rgba(0,0,0,0.59);
+-moz-box-shadow: 25px 13px 24px -2px rgba(0,0,0,0.59);
+
+transform: rotate(360deg);
+}
+.monoprix span{
+	display:inline-block ;
+    font-size: 100px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-left: 120px;
+	margin-top: 140px;
+	color: rgb(92, 29, 29);
+	
+}
+.monoprix {
+	text-decoration: none;
+	
+}
+.style-select:last-child {
+    margin-bottom: 35px;
+	opacity: 1;
+    transform: translate(0);
+	padding-left: 25cm;
+}
+.style-select select {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+	font-size: 25px;
+}
+.style-select select option {
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #333;
+}
+.style-select span{
+	font-size: 50px;
+	color: rgb(240, 240, 240);
+}
